@@ -1,1 +1,2 @@
 # Quaternion-Rotation-Simulation
+The code simulates how quaternions make life easier when it comes to 3D rotations. There is no gimbal as quaternion rotation is a continuous proccess using only a single operation. To put it simply, quaternion rotations do not cause gimbal lock as they let you chose a specific axis of rotation to rotate around, and the angle to be rotated by. hence, if we want to rotate to any given orientaion. we simply chose the axis and the angle and rotate! just one rotation. No specific axes either (No x,y,z axes).
